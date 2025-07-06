@@ -6,9 +6,9 @@ Este proyecto implementa un sistema barra-bola usando un microcontrolador ESP32,
 
 ## 🔧 1. Diseño Mecánico
 
-* [✅] Prototipo inicial funcional, aunque inestable a alta velocidad.
-* [✅] Soporte central añadido con sensor **BMI160** para medir inclinación real.
-* [✅] Soporte adicional para posible segundo sensor.
+* [x] Prototipo inicial funcional, aunque inestable a alta velocidad.
+* [x] Soporte central añadido con sensor **BMI160** para medir inclinación real.
+* [x] Soporte adicional para posible segundo sensor.
 
 **Observaciones:**
 
@@ -21,7 +21,7 @@ Este proyecto implementa un sistema barra-bola usando un microcontrolador ESP32,
 
 ### 2.1 Sensor de Distancia (VL53L0X v2)
 
-* [ ] Verificación de exactitud y precisión.
+* [] Verificación de exactitud y precisión.
 * [ ] Evaluación del uso del pin **GPIO1** para mayor velocidad.
 * [ ] Comparación de librerías disponibles.
 * [ ] Conversión de unidades a **cm** y definición del **cero**.
